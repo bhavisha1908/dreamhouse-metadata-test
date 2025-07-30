@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
-    <members>Property_Explorer</members>
-    <name>CustomTab</name>
-  </types>
-  <types>
-    <members>Property_Explorer</members>
-    <name>FlexiPage</name>
-  </types>
-  <types>
-    <members>Dreamhouse</members>
-    <name>CustomApplication</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>LightningComponentBundle</name>
-  </types>
-  <types>
-    <members>propertyListMap</members>
-    <name>LightningComponentBundle</name>
-  </types>
-  <types>
-    <members>leafletjs</members>
-    <name>StaticResource</name>
-  </types>
-  <version>60.0</version> <!-- Match your Org's API version -->
+    <types>
+        <members>Dreamhouse</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>60.0</version> <!-- Replace with your org's correct API version -->
 </Package>
